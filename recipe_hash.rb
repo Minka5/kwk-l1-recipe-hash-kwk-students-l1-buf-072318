@@ -61,3 +61,6 @@ def number_ingredients(x)
   x.size 
 
 end 
+
+number_ingredients(perfect_10_recipe)
+number_ingredients({:almond_flour =>"2 cups", :gluten_free_whole_oats =>"1 cup", :kosher_salt =>"1/2 tea spoon", :baking_powder => "1/2 tea spoon", :almonds =>"1/4 cup", :xantham_Gum => "1/2 tea spoon", :silvered_almonds => "1/4 cup", :mini_dark_chocolate_chips =>"3/4 cup", :olive_oil =>"1/2 cup", :agave =>"1/4 cup"})
